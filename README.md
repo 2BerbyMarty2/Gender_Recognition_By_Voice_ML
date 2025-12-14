@@ -1,20 +1,19 @@
-# Gender_Recognition_By_Voice_ML
+# Audio Feature Classification with Decision Trees
 
-Audio Feature Classification using Decision Trees
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0%2B-orange)](https://scikit-learn.org)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-A comprehensive ML pipeline for binary classification of audio signals using decision tree algorithms. The dataset contains 20 acoustic features:
+Machine learning project using decision trees to classify audio signals based on 20 acoustic features. Includes data preprocessing, model training, evaluation, and visualization.
 
-• Statistical measures: meanfreq, sd, median, Q25, Q75, IQR, skew, kurt
-• Spectral features: sp.ent, sfm, centroid, modindx
-• Fundamental frequency: meanfun, minfun, maxfun
-• Dominant frequency: meandom, mindom, maxdom, dfrange
+## Features
+- Decision Tree implementation with hyperparameter tuning
+- Feature importance analysis for audio characteristics
+- Interactive decision tree visualization
+- Model performance evaluation metrics
 
-Features include:
-✅ Decision Tree implementation with scikit-learn
-✅ Feature importance analysis and visualization
-✅ Hyperparameter tuning with GridSearchCV
-✅ Decision tree visualization (graphical and text rules)
-✅ Handling of imbalanced datasets
-✅ Model evaluation and comparison
-
-Ideal for voice classification, speaker identification, or general audio ML tasks.
+## Quick Start
+```bash
+git clone https://github.com/yourusername/audio-decision-trees.git
+pip install -r requirements.txt
+python train_model.py
